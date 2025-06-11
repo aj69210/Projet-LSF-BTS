@@ -96,7 +96,7 @@ Nous sommes ouverts aux contributions pour améliorer ce projet🚀. Voici comme
   - Respecter le style de code existant🔧.
   - Documenter les nouvelles fonctionnalités📘.
   - Ajouter des tests unitaires le cas échéant🔍.
-  - Garder les commits atomiques🧩.
+
 
 
 ## 📜Licence
