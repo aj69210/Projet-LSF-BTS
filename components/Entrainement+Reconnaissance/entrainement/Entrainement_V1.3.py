@@ -246,3 +246,4 @@ plot_history_and_confusion_matrix(history, y_true_classes, y_pred_classes, class
 
 print("\n--- SCRIPT TERMINÉ ---")
 print(f"Le meilleur modèle et les artefacts sont sauvegardés dans le dossier : {os.path.abspath(SAVE_DIR)}")
+
