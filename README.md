@@ -27,8 +27,38 @@ Ce dépôt contient le projet de [BTS CIEL](https://www.onisep.fr/ressources/uni
 7.  *🎯*Atteindre une précision de reconnaissance supérieure à 85%.**
 
 ## Installation
-*À venir — en attendant, consultez la section [Release](https://github.com/PlonoXxcoder/Projet-LSF-BTS/releases) pour récupérer une version fonctionnelle.*
+1.  **Clonez le dépôt :**
+    Ouvrez un terminal ou une invite de commande et exécutez :
+    ```bash
+    git clone https://github.com/PlonoXxcoder/Projet-LSF-BTS.git
+    cd Projet-LSF-BTS
+    ```
 
+2.  **Créez et activez un environnement virtuel (recommandé) :**
+    Cela permet d'isoler les dépendances de ce projet.
+    ```bash
+    # Utilisation de venv (inclus avec Python)
+    python -m venv venv
+    # Activer l'environnement :
+    # Sur Windows (cmd.exe)
+    .\venv\Scripts\activate
+    # Sur Windows (PowerShell)
+    .\venv\Scripts\Activate.ps1
+    # Sur macOS/Linux
+    source venv/bin/activate
+    ```
+    *(Votre invite de commande devrait maintenant indiquer que vous êtes dans l'environnement `(venv)`).*
+
+3.  **Installez les dépendances :**
+    Le projet utilise un fichier `requirements.txt` pour lister toutes les bibliothèques Python nécessaires.
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **Lancez l'application :**
+    Le script principal pour lancer l'application est généralement `main.py` ou un nom similaire.
+    ```bash
+    python main.py
+    ```
 ## 🛠️Technologies Utilisées
 
 *   **🐍Python 3.18.10**
